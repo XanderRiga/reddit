@@ -6,23 +6,23 @@ import sqlite3
 
 '''USER CONFIGURATION'''
 
-APP_ID = ""
-APP_SECRET = ""
-APP_URI = ""
-APP_REFRESH = ""
+APP_ID = "QsnKKkJFGCiw2w"
+APP_SECRET = "qJYelra0d3bE8pC64_Af_6F62QA"
+APP_URI = "https://127.0.0.1:65010/authorize_callback"
+APP_REFRESH = "48947512-hQP3hfBrpJOv9a_rd4n4i5pPJvM"
 # https://www.reddit.com/comments/3cm1p8/how_to_make_your_bot_use_oauth2/
-USERAGENT = ""
+USERAGENT = "/u/xandertestbot oauth2 test"
 # This is a short description of what the bot does.
 # For example "Python automatic replybot v2.0 (by /u/GoldenSights)"
-SUBREDDIT = "pics"
+SUBREDDIT = "bottest"
 # This is the sub or list of subs to scan for new posts. For a single sub, use "sub1". For multiple subreddits, use "sub1+sub2+sub3+..."
-KEYWORDS = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
+KEYWORDS = ["LIL JON", "lil_jon", "lil jon"]
 # These are the words you are looking for
 KEYAUTHORS = []
 # These are the names of the authors you are looking for
 # The bot will only reply to authors on this list
 # Keep it empty to allow anybody.
-REPLYSTRING = "Hi hungry, I'm dad."
+REPLYSTRING = "WHAT?!??!?!? YEAAAA?!?!??!?!"
 # This is the word you want to put in reply
 MAXPOSTS = 100
 # This is how many posts you want to retrieve all at once. PRAW can download 100 at a time.
